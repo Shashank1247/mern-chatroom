@@ -4,7 +4,7 @@ const cors = require('cors')
 const cookieParser = require('cookie-parser')
 require("dotenv").config();
 var corsOptions = {
-    origin: 'http://localhost:3000',
+    origin: 'https://chatroom-shashank.herokuapp.com',
     credentials: true,
     optionsSuccessStatus: 200 // For legacy browser support
 }
